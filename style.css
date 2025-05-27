@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Great Vibes', cursive;
+    background-color: #d1a850;
+    background-image: url("https://www.transparenttextures.com/patterns/rice-paper-3.png");
+    text-align: center;
+    color: #204fd1;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .puisi {
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .slideshow {
+    margin: 30px auto;
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    position: relative;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  button {
+    padding: 15px 30px;
+    background: #ff69b4;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #800b49;
+  }
+  
+  .popup {
+    display: none;
+    background: white;
+    color: hotpink;
+    padding: 25px;
+    border-radius: 20px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+    z-index: 99;
+  }
+  
